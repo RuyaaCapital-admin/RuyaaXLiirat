@@ -14,7 +14,7 @@ export default function FeaturesPlanet() {
           {/* رأس القسم */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
-              رؤيا X ليرات تعزز تداولك بالذكاء الاصطناعي وأتمتة MT5
+              RxL تعزز تداولك بالذكاء الاصطناعي وأتمتة MT5
             </h2>
           </div>
           {/* Planet */}

@@ -205,3 +205,104 @@
     border-color: var(--color-gray-200, currentColor);
   }
 }
+
+/* Neumorphic Button Styles */
+.neu-button {
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 60px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.3s ease-out;
+  margin: 0 10px;
+}
+
+.neu-button:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 180px;
+  height: 60px;
+  content: " ";
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  border-radius: 30px;
+  filter: blur(7px);
+  box-shadow: 8px 8px 20px #a9a8b7, -8px -8px 20px #fff;
+}
+
+.neu-button:hover:before {
+  box-shadow: 8px 8px 20px #a9a8b7, -8px -8px 20px #fff,
+    inset -8px -8px 20px #fff, inset 8px 8px 20px #a9a8b7;
+  transition: 0.3s ease-in;
+  transform: scale(1.05);
+}
+
+.neu-button span {
+  position: relative;
+  z-index: 5;
+  user-select: none;
+  cursor: pointer;
+  color: #666;
+}
+
+.neu-button.primary span {
+  color: #2563eb;
+}
+
+.neu-button.secondary span {
+  color: #666;
+}
+
+/* Mobile responsiveness for neumorphic buttons */
+@media (max-width: 640px) {
+  .neu-button {
+    width: 100%;
+    max-width: 280px;
+    height: 50px;
+    margin: 8px 0;
+    font-size: 14px;
+  }
+  
+  .neu-button:before {
+    width: 100%;
+    max-width: 280px;
+    height: 50px;
+  }
+}
+
+/* Global mobile optimizations */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure images don't cause horizontal scroll */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent horizontal scroll on containers */
+.container, .mx-auto {
+  max-width: 100%;
+  overflow-x: hidden;
+}

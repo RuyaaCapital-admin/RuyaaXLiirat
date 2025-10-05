@@ -11,7 +11,7 @@ export default function LargeTestimonial() {
               {/* ...existing svg and image code... */}
             </div>
             <p className="text-2xl font-bold text-gray-900">
-              "رؤيا X ليرات غيرت تجربتي في التداول بالكامل. من الاستراتيجيات الآلية إلى التحليلات الذكية، أصبحت منصتي الأساسية لتداول MT5 والذكاء الاصطناعي."
+              "RxL غيرت تجربتي في التداول بالكامل. من الاستراتيجيات الآلية إلى التحليلات الذكية، أصبحت منصتي الأساسية لتداول MT5 والذكاء الاصطناعي."
             </p>
             <div className="text-sm font-medium text-gray-500">
               <span className="text-gray-700">مريم سليمان</span>{" "}
