@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Sign Up - Simple",
-  description: "Page description",
+  title: "Sign Up - RuyaaXLiirat",
+  description: "Create your RuyaaXLiirat account.",
 };
 
 export default function SignUp() {

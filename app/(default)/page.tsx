@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  title: "Home - RuyaaXLiirat",
+  description: "MT5 & AI Trading Platform",
 };
 
 import Hero from "@/components/hero-home";
