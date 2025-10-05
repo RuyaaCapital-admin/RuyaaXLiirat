@@ -69,17 +69,18 @@ export default function HeroHome() {
               className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1] md:text-6xl"
               data-aos="zoom-y-out"
               data-aos-delay={150}
+              dir="rtl"
             >
-              The website builder you're <br className="max-lg:hidden" />
-              looking for
+              منصة التداول الذكية المدعومة بالذكاء الاصطناعي<br className="max-lg:hidden" />
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
                 className="mb-8 text-lg text-gray-700"
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
+                dir="rtl"
               >
-                RuyaaXLiirat is your gateway to MT5 Trading and AI-powered financial strategies. Experience next-gen trading automation and analytics for smarter investing.
+                رؤيا X ليرات تقدم لك حلول تداول MT5 وذكاء اصطناعي متقدم لإشارات التداول، التحليلات الذكية، ومساعد تداول آلي لتحقيق أفضل النتائج الاستثمارية.
               </p>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]">
                 <div
@@ -88,13 +89,13 @@ export default function HeroHome() {
                   data-aos-delay={450}
                 >
                   <a
-                    className="btn group mb-4 w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
+                    className="btn group mb-4 w-full bg-gradient-to-t from-green-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                     href="#0"
                   >
-                    <span className="relative inline-flex items-center">
-                      Get Started with AI Trading
+                    <span className="relative inline-flex items-center" dir="rtl">
+                      ابدأ التداول الذكي الآن
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
-                        -&gt;
+                        ←
                       </span>
                     </span>
                   </a>
@@ -102,48 +103,33 @@ export default function HeroHome() {
                     className="btn w-full bg-white text-gray-800 shadow-sm hover:bg-gray-50 sm:ml-4 sm:w-auto"
                     href="#0"
                   >
-                    Learn More
+                    المزيد عن المنصة
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          {/* Hero image */}
+          {/* Hero image - replaced with trading/AI visuals */}
           <div
-            className="mx-auto max-w-3xl"
+            className="mx-auto max-w-3xl flex flex-col items-center gap-6"
             data-aos="zoom-y-out"
             data-aos-delay={600}
           >
-            <div className="relative aspect-video rounded-2xl bg-gray-900 px-5 py-3 shadow-xl before:pointer-events-none before:absolute before:-inset-5 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1] after:absolute after:-inset-5 after:-z-10 after:border-x after:[border-image:linear-gradient(to_bottom,transparent,--theme(--color-slate-300/.8),transparent)1]">
-              <div className="relative mb-8 flex items-center justify-between before:block before:h-[9px] before:w-[41px] before:bg-[length:16px_9px] before:[background-image:radial-gradient(circle_at_4.5px_4.5px,var(--color-gray-600)_4.5px,transparent_0)] after:w-[41px]">
-                <span className="text-[13px] font-medium text-white">
-                  RuyaaXLiirat.com
-                </span>
+            <div className="relative aspect-video rounded-2xl bg-gradient-to-br from-blue-900 via-gray-900 to-green-900 px-5 py-3 shadow-xl flex items-center justify-center">
+              <Image src="/images/planet.png" alt="Trading Planet" width={180} height={180} className="absolute left-4 top-4 opacity-80" />
+              <div className="flex flex-col items-center z-10">
+                <Image src="/images/planet-tag-01.png" alt="AI Trade Signal" width={64} height={64} className="mb-2" />
+                <span className="text-xl font-bold text-green-400 mb-2" dir="rtl">إشارة تداول AI</span>
+                <Image src="/images/planet-tag-02.png" alt="Trading Assistant" width={64} height={64} className="mb-2" />
+                <span className="text-lg font-semibold text-blue-300" dir="rtl">مساعد التداول الذكي</span>
               </div>
-              <div className="font-mono text-gray-500 [&_span]:opacity-0">
-                <span className="animate-[code-1_10s_infinite] text-gray-200">
-                  npm login
-                </span>{" "}
-                <span className="animate-[code-2_10s_infinite]">
-                  --registry=https://npm.pkg.github.com
-                </span>
-                <br />
-                <span className="animate-[code-3_10s_infinite]">
-                  --scope=@phanatic
-                </span>{" "}
-                <span className="animate-[code-4_10s_infinite]">
-                  Successfully logged-in.
-                </span>
-                <br />
-                <br />
-                <span className="animate-[code-5_10s_infinite] text-gray-200">
-                  npm publish
-                </span>
-                <br />
-                <span className="animate-[code-6_10s_infinite]">
-                  Package published.
-                </span>
-              </div>
+            </div>
+            <div className="font-mono text-gray-500 text-center" dir="rtl">
+              <span className="text-gray-200">مثال على إشارة التداول:</span>
+              <br />
+              <span className="text-green-400">شراء EUR/USD عند 1.0850 - وقف الخسارة 1.0800 - جني الأرباح 1.0950</span>
+              <br />
+              <span className="text-blue-300">مساعد التداول: تحليل السوق وتقديم توصيات فورية</span>
             </div>
           </div>
         </div>
