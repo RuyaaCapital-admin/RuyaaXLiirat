@@ -8,13 +8,13 @@ import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
 
 export default function FeaturesPlanet() {
   return (
-    <section className="relative before:absolute before:inset-0 before:-z-20 before:bg-gray-900">
+    <section className="relative before:absolute before:inset-0 before:-z-20 before:bg-gray-900" dir="rtl">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
-          {/* Section header */}
+          {/* رأس القسم */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
-              RuyaaXLiirat empowers your trading with AI and MT5 automation
+              رؤيا X ليرات تعزز تداولك بالذكاء الاصطناعي وأتمتة MT5
             </h2>
           </div>
           {/* Planet */}

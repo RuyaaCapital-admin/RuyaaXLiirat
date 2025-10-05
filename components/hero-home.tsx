@@ -109,29 +109,7 @@ export default function HeroHome() {
               </div>
             </div>
           </div>
-          {/* Hero image - replaced with trading/AI visuals */}
-          <div
-            className="mx-auto max-w-3xl flex flex-col items-center gap-6"
-            data-aos="zoom-y-out"
-            data-aos-delay={600}
-          >
-            <div className="relative aspect-video rounded-2xl bg-gradient-to-br from-blue-900 via-gray-900 to-green-900 px-5 py-3 shadow-xl flex items-center justify-center">
-              <Image src="/images/planet.png" alt="Trading Planet" width={180} height={180} className="absolute left-4 top-4 opacity-80" />
-              <div className="flex flex-col items-center z-10">
-                <Image src="/images/planet-tag-01.png" alt="AI Trade Signal" width={64} height={64} className="mb-2" />
-                <span className="text-xl font-bold text-green-400 mb-2" dir="rtl">إشارة تداول AI</span>
-                <Image src="/images/planet-tag-02.png" alt="Trading Assistant" width={64} height={64} className="mb-2" />
-                <span className="text-lg font-semibold text-blue-300" dir="rtl">مساعد التداول الذكي</span>
-              </div>
-            </div>
-            <div className="font-mono text-gray-500 text-center" dir="rtl">
-              <span className="text-gray-200">مثال على إشارة التداول:</span>
-              <br />
-              <span className="text-green-400">شراء EUR/USD عند 1.0850 - وقف الخسارة 1.0800 - جني الأرباح 1.0950</span>
-              <br />
-              <span className="text-blue-300">مساعد التداول: تحليل السوق وتقديم توصيات فورية</span>
-            </div>
-          </div>
+          {/* Hero image - original visuals restored, no AI card or overlapping text */}
         </div>
       </div>
     </section>
