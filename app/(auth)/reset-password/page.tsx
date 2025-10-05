@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Reset Password - Simple",
-  description: "Page description",
+  title: "Reset Password - RuyaaXLiirat",
+  description: "Reset your RuyaaXLiirat password.",
 };
 
 export default function ResetPassword() {
