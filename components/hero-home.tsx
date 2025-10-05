@@ -9,7 +9,6 @@ import Avatar04 from "@/public/images/avatar-04.jpg";
 import Avatar05 from "@/public/images/avatar-05.jpg";
 import Avatar06 from "@/public/images/avatar-06.jpg";
 import { TypeAnimation } from 'react-type-animation';
-import { DockDemo } from "@/components/ui/dock-demo";
 
 export default function HeroHome() {
   return (
@@ -59,10 +58,7 @@ export default function HeroHome() {
                 </div>
               </div>
             </div>
-            {/* Floating Dock */}
-            <DockDemo />
           </div>
-          {/* Hero image - original visuals restored, no AI card or overlapping text */}
         </div>
       </div>
     </section>

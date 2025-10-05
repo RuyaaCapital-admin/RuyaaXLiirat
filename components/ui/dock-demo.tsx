@@ -6,7 +6,7 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export function DockDemo() {
   return (
-    <div className="relative">
+    <div className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2">
       <Dock direction="middle">
         <DockIcon>
           <Icons.whatsapp className="size-6" />
@@ -81,7 +81,7 @@ const Icons = {
   ),
   mt5: (props: IconProps) => (
     <img
-      src="/images/mt5officiallogo.svg"
+      src="/images/mt5 official logo.jpg"
       alt="MT5 Official Logo"
       className="w-6 h-6"
       {...(props as any)}
@@ -94,7 +94,7 @@ const Icons = {
   ),
   telegram: (props: IconProps) => (
     <img
-      src="/images/telegramofficiallogo.svg"
+      src="/images/telegramofficiallogo.jpg"
       alt="Telegram Official Logo"
       className="w-6 h-6"
       {...(props as any)}
