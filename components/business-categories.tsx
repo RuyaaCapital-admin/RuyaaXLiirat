@@ -53,67 +53,6 @@ export default function BusinessCategories() {
                 <circle cx={1} cy={1} r={1} transform="matrix(-1 0 0 1 164 39)" />
               </svg>
             </div>
-                <circle
-                  cx={1}
-                  cy={1}
-                  r={1}
-                  transform="matrix(-1 0 0 1 164 25)"
-                  fillOpacity="0.64"
-                />
-                <circle
-                  cx={1}
-                  cy={1}
-                  r={1}
-                  transform="matrix(-1 0 0 1 164 32)"
-                  fillOpacity="0.24"
-                />
-                <circle
-                  cx={1}
-                  cy={1}
-                  r={1}
-                  transform="matrix(-1 0 0 1 157 7)"
-                />
-                <circle
-                  cx={1}
-                  cy={1}
-                  r={1}
-                  transform="matrix(-1 0 0 1 157 14)"
-                />
-                <circle
-                  cx={1}
-                  cy={1}
-                  r={1}
-                  transform="matrix(-1 0 0 1 157 25)"
-                  fillOpacity="0.24"
-                />
-                <circle
-                  cx={1}
-                  cy={1}
-                  r={1}
-                  transform="matrix(-1 0 0 1 150 14)"
-                  fillOpacity="0.64"
-                />
-                <circle
-                  cx={1}
-                  cy={1}
-                  r={1}
-                  transform="matrix(-1 0 0 1 150 25)"
-                  fillOpacity="0.16"
-                />
-                <circle
-                  cx={1}
-                  cy={1}
-                  r={1}
-                  transform="matrix(-1 0 0 1 157 32)"
-                />
-                <circle
-                  cx={1}
-                  cy={1}
-                  r={1}
-                  transform="matrix(-1 0 0 1 164 39)"
-                />
-              </svg>
-            </div>
             {/* Blue glow */}
             <div className="absolute -z-10">
               <svg
