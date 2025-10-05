@@ -55,7 +55,9 @@
   --animate-line: line;
   --animate-infinite-scroll: infinite-scroll;
   --animate-glow: glow;
-  --animate-float-up: float-up;  
+  --animate-float-up: float-up;
+  --animate-accordion-down: accordion-down;
+  --animate-accordion-up: accordion-up;  
 
   @keyframes code-1 {
     0% {
@@ -210,6 +212,22 @@
     100% {
       transform: translateY(-100vh);
       opacity: 0;
+    }
+  }
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
     }
   }
 }

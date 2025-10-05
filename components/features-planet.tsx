@@ -5,7 +5,6 @@ import PlanetTagImg01 from "@/public/images/planet-tag-01.png";
 import PlanetTagImg02 from "@/public/images/planet-tag-02.png";
 import PlanetTagImg03 from "@/public/images/planet-tag-03.png";
 import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
-import { ReferralCard } from "@/components/referral-card";
 
 export default function FeaturesPlanet() {
   return (
@@ -70,10 +69,6 @@ export default function FeaturesPlanet() {
                 </div>
               </div>
             </div>
-          </div>
-          {/* Referral Program */}
-          <div className="max-w-2xl mx-auto" data-aos="zoom-y-out">
-            <ReferralCard />
           </div>
         </div>
       </div>
